@@ -2,6 +2,7 @@
 
 This plugin changes the behaviour of XCode's text editor so if you are really using spaces in indentation Settings, it changes cursor movement in a way so it appears that you are using tabs.  
 At this time behaviour of ← and → keys is changed (more to follow).
+More updates to follow.  
 
 ### Installation
 
