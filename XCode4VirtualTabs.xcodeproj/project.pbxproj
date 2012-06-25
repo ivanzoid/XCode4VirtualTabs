@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C6632481598520D004C9B4A /* XCode4VirtualTabs.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6632471598520D004C9B4A /* XCode4VirtualTabs.m */; };
+		435E248B13A8E5DA0052479A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435E248A13A8E5DA0052479A /* Cocoa.framework */; };
+		437DCBC514D41E700039CB49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 437DCBC314D41E700039CB49 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C6632471598520D004C9B4A /* XCode4VirtualTabs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCode4VirtualTabs.m; sourceTree = "<group>"; };
+		435E247213A8E4A20052479A /* XCode4VirtualTabs.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCode4VirtualTabs.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		435E248413A8E5A40052479A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435E248A13A8E5DA0052479A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		437DCBC414D41E700039CB49 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		435E246F13A8E4A20052479A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435E248B13A8E5DA0052479A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		435E246513A8E4510052479A = {
+			isa = PBXGroup;
+			children = (
+				435E248A13A8E5DA0052479A /* Cocoa.framework */,
+				435E248913A8E5B70052479A /* Sources */,
+				435E247313A8E4A20052479A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		435E247313A8E4A20052479A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				435E247213A8E4A20052479A /* XCode4VirtualTabs.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		435E248913A8E5B70052479A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2C6632471598520D004C9B4A /* XCode4VirtualTabs.m */,
+				437DCBC314D41E700039CB49 /* InfoPlist.strings */,
+				435E248413A8E5A40052479A /* Info.plist */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		435E247113A8E4A20052479A /* XCode4VirtualTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435E247E13A8E4A20052479A /* Build configuration list for PBXNativeTarget "XCode4VirtualTabs" */;
+			buildPhases = (
+				435E246E13A8E4A20052479A /* Sources */,
+				435E246F13A8E4A20052479A /* Frameworks */,
+				435E247013A8E4A20052479A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCode4VirtualTabs;
+			productName = XCode4_beginning_of_line;
+			productReference = 435E247213A8E4A20052479A /* XCode4VirtualTabs.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		435E246713A8E4510052479A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 435E246A13A8E4510052479A /* Build configuration list for PBXProject "XCode4VirtualTabs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 435E246513A8E4510052479A;
+			productRefGroup = 435E247313A8E4A20052479A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				435E247113A8E4A20052479A /* XCode4VirtualTabs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		435E247013A8E4A20052479A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437DCBC514D41E700039CB49 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		435E246E13A8E4A20052479A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6632481598520D004C9B4A /* XCode4VirtualTabs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		437DCBC314D41E700039CB49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				437DCBC414D41E700039CB49 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		435E246C13A8E4520052479A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		435E246D13A8E4520052479A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		435E247F13A8E4A20052479A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = "$(HOME)";
+				GCC_ENABLE_OBJC_GC = supported;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = /Developer;
+				PRODUCT_NAME = XCode4VirtualTabs;
+				STRIP_INSTALLED_PRODUCT = YES;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		435E248013A8E4A20052479A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = "$(HOME)";
+				GCC_ENABLE_OBJC_GC = supported;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = /Developer;
+				PRODUCT_NAME = XCode4VirtualTabs;
+				STRIP_INSTALLED_PRODUCT = YES;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		435E246A13A8E4510052479A /* Build configuration list for PBXProject "XCode4VirtualTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435E246C13A8E4520052479A /* Debug */,
+				435E246D13A8E4520052479A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435E247E13A8E4A20052479A /* Build configuration list for PBXNativeTarget "XCode4VirtualTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435E247F13A8E4A20052479A /* Debug */,
+				435E248013A8E4A20052479A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 435E246713A8E4510052479A /* Project object */;
+}

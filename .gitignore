@@ -1,0 +1,16 @@
+BuildInfo.h
+build
+.DS_Store
+.LSOverride
+*~
+*.mode1v3
+*.mode2v3
+*.swp
+*~.nib
+*.pbxuser
+*.perspective
+*.perspectivev3
+xcuserdata
+xcuserstate
+*.xcworkspace
+xcshareddata
