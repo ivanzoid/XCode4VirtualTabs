@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2C54356615A1D8AE001AB9F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C54356515A1D8AE001AB9F0 /* Cocoa.framework */; };
 		2C6632481598520D004C9B4A /* XCode4VirtualTabs.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6632471598520D004C9B4A /* XCode4VirtualTabs.m */; };
-		437DCBC514D41E700039CB49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 437DCBC314D41E700039CB49 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,7 +16,6 @@
 		2C6632471598520D004C9B4A /* XCode4VirtualTabs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCode4VirtualTabs.m; sourceTree = "<group>"; };
 		435E247213A8E4A20052479A /* XCode4VirtualTabs.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCode4VirtualTabs.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		435E248413A8E5A40052479A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		437DCBC414D41E700039CB49 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				2C6632471598520D004C9B4A /* XCode4VirtualTabs.m */,
-				437DCBC314D41E700039CB49 /* InfoPlist.strings */,
 				435E248413A8E5A40052479A /* Info.plist */,
 			);
 			name = Sources;
@@ -110,7 +107,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				437DCBC514D41E700039CB49 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,17 +122,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		437DCBC314D41E700039CB49 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				437DCBC414D41E700039CB49 /* English */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		435E246C13A8E4520052479A /* Debug */ = {
